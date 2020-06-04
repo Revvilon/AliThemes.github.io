@@ -1,0 +1,270 @@
+:root {
+    --theme-box-colors: rgb(36, 36, 36);
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: rgb(39, 39, 39)
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(56, 56, 56)
+}
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    background: rgb(36, 36, 36)
+  }
+
+.discord-invite {
+    border-radius: 4px;
+    padding: 4px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 180px;
+    height: 40px;
+    background: #738ADB;
+}
+
+.joinuwu {
+    position: absolute;
+    right: 28px;
+    top: 29px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    font-family: Impact;
+    pointer-events: none;
+}
+
+.discord-invite img { 
+    padding-right: 8px;
+    width: 40px;
+    border-right: 1px solid white;
+}
+
+header {
+    background: linear-gradient(0deg, rgb(48, 48, 48), rgb(48, 48, 48));
+    padding: 10px;
+    font-weight: lighter;
+    font-family: Impact;
+    padding-left: 5rem;
+    font-size: 3rem;
+    color: rgb(245, 245, 245);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.096);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
+}
+
+.sidenav {
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    bottom: 0; left: 0px;
+    overflow-x: hidden;
+    background: rgb(39, 39, 39);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.425);
+    transition: left .5s ease;
+    left: -250px;
+}
+
+.sidenav a:not(.faq-button) {
+    display: flex;
+    overflow: hidden;
+    font-family: sans-serif;
+    float: left;
+    color: rgb(83, 83, 83);
+    background: rgba(29, 29, 29, 0.993);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    padding:10px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 3px 3.5rem 3px 0px;
+    border-radius: 0px 5px 5px 0px;
+    transition: all .1s ease;
+    font-weight: bolder;
+}
+
+.sidenav a:hover {
+    background: rgba(44, 44, 44, 0.993);
+    color: #ffffff;
+}
+
+.fa-chevron-right {
+    color: rgba(204, 204, 204, 0.616);
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    cursor: pointer;
+    transition: .7s ease;
+    transition-property: transform;
+}
+
+.fa-chevron-right:hover {
+    color: rgb(255, 255, 255);
+}
+
+.fa-chevron-right button, .navButton {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: transparent;
+    border: none!important;
+    right: 0px;
+    cursor: pointer;
+}
+
+
+button:focus {
+    outline: none;
+}
+
+.fa-question-circle {
+position: absolute;
+color: rgba(158, 158, 158, 0.616);
+transition: all .1s ease;
+font-size: 1.7rem;
+cursor: pointer;
+bottom: 10px;
+left: 10px
+}
+.fa-question-circle:hover {
+    color: white;
+}
+
+.faq-button {
+    left: -280px;
+    width: 250px;
+    position: absolute;
+    bottom: 40px;
+    overflow: hidden;
+    font-family: sans-serif;
+    background: rgb(44, 44, 44);
+    color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    padding:10px 10px 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 3.5rem;
+    border-radius: 0px 10px 10px 0px;
+    transition: left .7s ease;
+    font-weight: bolder;
+}
+
+.main-page {
+    transition: flex .2s ease;
+    flex-basis: auto; /* default auto */
+    justify-content: end;
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: rgb(29, 29, 29);
+    margin: 2rem 2.5rem 0px 5rem;
+    border-radius: 5px;
+}
+
+.theme-boxes {
+    overflow: hidden;
+    background: white;
+    width: 25rem;
+    height: 25rem;
+    margin: 10px;
+    border-radius: 0px 0px 2px 2px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid var(--theme-box-colors);
+    font-weight: ;
+    color: rgb(114, 114, 114);
+    font-family: sans-serif;
+}
+
+.theme-boxes .header {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 40%;
+    border-radius: 10px 10px 0px 0px;
+    filter: blur(1px);
+}
+.theme-boxes .footer {
+    height: 60%;
+    width: 100%;
+    padding: 1px 10px 10px 10px;
+    background: var(--theme-box-colors);
+}
+
+
+.box7 .header-image {
+    background: url("https://imgur.com/zJPBnrt.png");
+    background-size: contain!important;
+}
+
+.box6 .header-image {
+    background: url("https://imgur.com/vJzjOjk.png")
+}
+
+.box5 .header-image {
+    background: url("https://imgur.com/uXhTIY6.png");
+}
+
+.box4 .header-image {
+    background: url("https://i.imgur.com/XbCyE5a.png")
+}
+
+.box3 .header-image {
+    background: url("http://getwallpapers.com/wallpaper/full/d/4/8/510902.jpg")
+}
+
+.box2 .header-image {
+    background: url("https://images.pexels.com/photos/2961876/pexels-photo-2961876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+}
+
+.box1 .header-image {
+    background: url("https://wallpaperboat.com/wp-content/uploads/2019/06/minimalist-desktop-14.jpg");
+}
+
+.theme-boxes .header-image {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+.theme-boxes a {
+    filter: blur(0px)!important;
+    position: absolute;
+    margin-left: 307px;
+    margin-top: 365px;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background: rgb(31, 31, 31);
+    padding: 8px;
+    border-radius: 5px;
+    transition: all .1s ease;
+}
+.theme-boxes a:hover {
+    color: white;
+    background: rgb(29, 29, 29);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
+}   
+
+p {
+    white-space:normal;
+    margin-right: 10px;
+}
