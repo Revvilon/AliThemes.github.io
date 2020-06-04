@@ -29,3 +29,4 @@ function myFaq() {
         myOtherBoolean = false;
     }
 }
+

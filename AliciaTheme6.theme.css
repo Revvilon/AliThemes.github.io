@@ -1,0 +1,21 @@
+//META{"name":"AliTheme","description":"6th theme, messages appear as chat bubbles","author":"Alicia#7724","version":"0.0"}*//
+
+@import url(https://f000.backblazeb2.com/file/anothertheme/testingstuff.theme.css);
+
+:root {
+    --theme-top-left-name: "₳Ⱡł₮ⱧɆ₥Ɇ";
+    --channel-margin: 10px;
+    --unread-margin: 10px;
+    --channel-color: rgba(80, 80, 80, 0.637);
+    --secret-text: 'you thought this was an easter egg, but it was me, DIO!!';
+    --embeds: rgb(34, 34, 34);
+    --background: rgba(41, 40, 40, 0.89);
+    --chat-color: rgba(41, 40, 40, 0.89);
+    --default-colors: rgb(42, 42, 42);
+    --hover-colors: rgb(44, 44, 44);
+    --mentioned-normal: rgb(51, 49, 40);
+    --mentioned-hover: rgb(48, 46, 37);
+    --chat-shadows: rgba(0, 0, 0, 0.055);
+    --other-shadows: rgba(0, 0, 0, 0.486);
+    --profiles-clicked: rgb(54, 54, 54);
+}

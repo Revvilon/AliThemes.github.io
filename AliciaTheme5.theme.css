@@ -1,0 +1,12 @@
+//META{"name":"Birbo","description":"birb theme","author":"Alicia#7724","version":"0.0"}*//
+
+@import url("https://f000.backblazeb2.com/file/birbtheme/Bird.theme.css");
+
+:root {
+    /*ok so here are all the variables kthx*/
+    --gradientsuwu: linear-gradient(120deg, rgba(0,9,16,1) 0%, rgba(6,25,42,1) 86%);
+    --backgroundimageuwu: url("https://images.pexels.com/photos/2961876/pexels-photo-2961876.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    --hover-on-buttons-and-selected: rgba(60, 145, 255, 0.822);
+    --marginrightforchannelsuwu: 10px;  /*chanees how much channels slide*/
+    --marginleftforchannelsuwu: 10px;
+}
