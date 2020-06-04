@@ -2,6 +2,11 @@
     --theme-box-colors: rgb(36, 36, 36);
 }
 
+@font-face {
+    src: url(impact.ttf);
+    font-family: myFont;
+}
+
 body::-webkit-scrollbar {
     width: 10px;
     background: rgb(39, 39, 39)
@@ -38,7 +43,7 @@ body {
     font-weight: lighter;
     color: white;
     text-decoration: none;
-    font-family: Impact;
+    font-family: myFont;
     pointer-events: none;
 }
 
@@ -52,7 +57,7 @@ header {
     background: linear-gradient(0deg, rgb(48, 48, 48), rgb(48, 48, 48));
     padding: 10px;
     font-weight: lighter;
-    font-family: Impact;
+    font-family: myFont;
     padding-left: 5rem;
     font-size: 3rem;
     color: rgb(245, 245, 245);
