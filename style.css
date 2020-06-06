@@ -101,6 +101,14 @@ header {
     background: #FF0000;
 }
 
+.sidenav a:nth-of-type(5):hover {
+    background: #e74c3c;
+}
+
+.sidenav a:nth-of-type(6):hover {
+    background: #3C3C3C;
+}
+
 .fa-chevron-right {
     color: rgba(204, 204, 204, 0.616);
     font-size: 1.5rem;
@@ -347,4 +355,17 @@ p {
 
 .highlightaaaa {
     color: white;
+}
+
+
+.skillhot {
+    background: #8d8d8d;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skillhot:active {
+    background: #6b6b6b;
 }
