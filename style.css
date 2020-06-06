@@ -20,38 +20,9 @@ html {
 }
 
 body {
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px!important;
     background: rgb(36, 36, 36)
   }
-
-.discord-invite {
-    border-radius: 4px;
-    padding: 4px;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    width: 180px;
-    height: 40px;
-    background: #738ADB;
-}
-
-.joinuwu {
-    position: absolute;
-    right: 28px;
-    top: 29px;
-    font-size: 18px;
-    font-weight: lighter;
-    color: white;
-    text-decoration: none;
-    font-family: myFont;
-    pointer-events: none;
-}
-
-.discord-invite img { 
-    padding-right: 8px;
-    width: 40px;
-    border-right: 1px solid white;
-}
 
 .lgbtqflag {
     width: 2.5rem;
@@ -109,6 +80,15 @@ header {
 .sidenav a:hover {
     background: rgba(44, 44, 44, 0.993);
     color: #ffffff;
+}
+
+.sidenav a:nth-of-type(3):hover  {
+    background: #738ADB;
+    color: #ffffff;
+}
+
+.sidenav a:nth-of-type(4):hover  {
+    background: #FF0000;
 }
 
 .fa-chevron-right {
@@ -175,24 +155,20 @@ left: 10px
 }
 
 .main-page {
-    transition: flex .2s ease;
-    flex-basis: auto; /* default auto */
-    justify-content: end;
-    width: fit-content;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     background: rgb(29, 29, 29);
-    margin: 2rem 2.5rem 0px 5rem;
     border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .theme-boxes {
     overflow: hidden;
     background: white;
-    width: 150%;
-    max-width: 25rem;
+    width: 25rem;
     height: 25rem;
     margin: 10px;
     border-radius: 0px 0px 2px 2px;
@@ -219,7 +195,7 @@ left: 10px
 
 .box7 .header-image {
     background: url("https://imgur.com/zJPBnrt.png");
-    background-size: contain!important;
+    background-size: cover;
 }
 
 .box6 .header-image {
@@ -249,7 +225,8 @@ left: 10px
 
 .theme-boxes .header-image {
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     height: 100%;
     background-size: cover;
     transform: scale(1.1);
@@ -257,9 +234,6 @@ left: 10px
 
 .theme-boxes a {
     filter: blur(0px)!important;
-    position: absolute;
-    margin-left: 307px;
-    margin-top: 365px;
     text-decoration: none;
     color: gray;
     font-size: 13px;
@@ -284,48 +258,32 @@ p {
 .home-page {
     box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.164);
     background: rgb(29, 29, 29);
-    margin: 2rem 2.5rem 0px 5rem;
     height: 100%;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 2rem;
     padding-top: 30px;
     padding-bottom: 10px;
+    margin: 1%;
+    margin-left: 60px;
 }
 
-.friends-container {
+.alicias-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-shrink: 3;
-    min-width: 0;
-    justify-content: center;  
-}
-
-
-.totte-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 
 .totteImage {
-    width: 300px;
-    display: block;
+    text-align: center;
+    width: 80%;
+    max-width: 225px;
+    text-align:center;
+    display:block;
+    margin:auto;
     border-radius: 50%;
-    opacity: .7;
-    margin: 50px;
-    margin-bottom: 10px;
-    border: 10px solid rgb(37, 37, 37);
-    transition: opacity .1s ease;
-}
-
-.friends-container .totteImage {
-    width: 225px;
-}
-
-.alicias-container img {
+    border: min(3vw, 5px) solid rgb(36, 36, 36);
     opacity: .8;
 }
 
@@ -334,6 +292,7 @@ p {
     text-align: center;    
     text-decoration: none;
     transition: all .1s ease;
+    font-size: min(8vw, 30px);
 }
 .image-containers:hover .image-text, .image-containers:hover img, .alicias-container:hover .image-text, .alicias-container:hover img {
     color: rgb(255, 255, 255)!important;
@@ -358,4 +317,24 @@ p {
     margin-top: 20px;
     background: rgba(128, 128, 128, 0.219)
 }
+
+.friends-container {
+    margin-left: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: auto;
+    max-width: 50%;
+    margin-top: 50px;   
+}
+
+.image-containers {
+    margin: 10px;
+}
+
+.highlightaaaa {
+    color: white;
+}
+
 /*one second*/
