@@ -24,6 +24,10 @@ body {
     background: rgb(36, 36, 36)
   }
 
+.secondflag {
+    position: ;
+}
+
 .lgbtqflag {
     width: 2.5rem;
     transform: rotate(80deg) scale(4);
@@ -266,6 +270,7 @@ p {
 }
 
 .home-page {
+    overflow: hidden;
     box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.164);
     background: rgb(29, 29, 29);
     height: 100%;
@@ -333,7 +338,7 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     width: auto;
     max-width: 50%;
     margin-top: 50px;   
@@ -346,5 +351,3 @@ p {
 .highlightaaaa {
     color: white;
 }
-
-/*one second*/
