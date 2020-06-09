@@ -70,6 +70,17 @@ header {
     left: -250px;
 }
 
+.activeNav {
+    transition: all .5s ease;;
+    left: 0;
+}
+
+.activeRotate {
+    transition: all .4s ease;;
+    right: 24px;
+    transform: rotate(180deg);
+}
+
 .sidenav a:not(.faq-button) {
     display: flex;
     overflow: hidden;
@@ -170,6 +181,11 @@ left: 10px
     border-radius: 0px 10px 10px 0px;
     transition: left .7s ease;
     font-weight: bolder;
+}
+
+.faqActive {
+    transition: all .5s ease;;
+    left: 0;
 }
 
 .main-page {
