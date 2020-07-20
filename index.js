@@ -20,7 +20,7 @@ function myFunction(x) {
     console.log(secretVariable);
     if (secretVariable == 5) {
         console.log("now click on the name");
-        onyx.href="subpages/secretpage.html";
+        onyx.href="subpages/secretpage";
         onyx.target="_self"
     }
 }
